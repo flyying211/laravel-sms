@@ -1,0 +1,36 @@
+{
+  "name": "flyying211/laravel-sms",
+  "type": "library",
+  "description": "aliyun sms sdk laravel 阿里云 短信",
+  "keywords": [
+    "aliyun",
+    "MNS",
+    "mq"
+  ],
+  "homepage": "https://www.aliyun.com/product/sms?spm=5176.7944397.416540.97.6mD1zg",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "flyying21",
+      "email": "flyying21@163.com",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.2",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliyunMNS\\": "src/AliyunMNS/",
+      "Skychf\\AliyunMNS\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
